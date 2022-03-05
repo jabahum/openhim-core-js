@@ -33,7 +33,7 @@
   "api": {
     "enabled": true,
     "protocol": "https",
-    "port": 8080,
+    "port": 8081,
     "authWindowSeconds": 10,
     "maxBodiesSizeMB": 15,
     "maxPayloadSizeMB": 50,
