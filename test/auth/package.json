@@ -1,0 +1,20 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "this is an auth script for openhim",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openhim",
+    "openhie"
+  ],
+  "author": "jaba",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "request": "^2.88.2"
+  }
+}

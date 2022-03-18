@@ -1,0 +1,39 @@
+{
+    "type": "http",
+    "authType": "public",
+    "status": "enabled",
+    "routes": [
+        {
+            "name": "FHIR Server test",
+            "secured": false,
+            "host": "ec2-34-226-246-236.compute-1.amazonaws.com",
+            "port": "3000",
+            "path": "/fhir/Practitioner",
+            "pathTransform": "",
+            "primary": true,
+            "username": "",
+            "password": "",
+            "type": "http",
+            "status": "enabled",
+            "forwardAuthHeader": false
+        }
+    ],
+    "requestBody": true,
+    "responseBody": true,
+    "rewriteUrlsConfig": [],
+    "rewriteUrls": false,
+    "addAutoRewriteRules": true,
+    "name": "FHIR Server test mwyeeeee",
+    "urlPattern": "^/fhir/.*$",
+    "methods": [
+        "GET",
+        "POST"
+    ],
+    "matchContentRegex": null,
+    "matchContentXpath": null,
+    "matchContentValue": null,
+    "matchContentJson": null,
+    "pollingSchedule": null,
+    "tcpHost": null,
+    "tcpPort": null
+}
