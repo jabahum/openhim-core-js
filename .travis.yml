@@ -10,7 +10,7 @@ matrix:
 services:
   - mongodb
 before_install:
-  - export TZ=Africa/Johannesburg
+  - export TZ=Africa/Nairobi
 script:
   - npm test
 after_success:
