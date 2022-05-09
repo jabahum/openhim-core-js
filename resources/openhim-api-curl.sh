@@ -12,7 +12,7 @@ shift;
 shift;
 
 # which server?
-server="https://localhost:8081"
+server="https://178.18.250.54:8081"
 for arg in $@; do
     match=`echo $arg | grep http | perl -pe 's|(https?://.*?)/.*|\1|'`;
     if [ "$match" ]; then
